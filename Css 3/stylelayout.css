@@ -1,0 +1,70 @@
+*{margin: 0; 
+	padding: 0;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+    font: inherit;
+   
+
+}
+body{
+    padding-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+	font-feature-settings: center;
+	text-align: center;
+	font-size: 20px;
+    background-color:white;
+    margin-inline: auto;
+    
+}
+
+head{
+    padding: 20px;
+    display:inline-block;
+ }
+
+.logo{
+	padding-top: 20px;	
+	width: 200px; 
+	height: 190px;
+    cursor:pointer;
+    filter: contrast(150%);
+    filter: brightness(100%);  
+    filter: sharpness(150%); 
+	
+}
+.imgcorpo{
+    padding-top: 80px;
+    padding: 20px 10px 20px 10px;
+    display: flex;
+    background-color:none;
+    margin-left: auto;
+	margin-right: auto;
+    filter: contrast(150%);
+    filter: brightness(100%);  
+    filter: sharpness(150%);
+}
+.menu{
+    display:none;
+    font: 16 px garamond, bold white;
+    cursor:pointer;
+}
+
+menu:hover{
+    cursor:pointer;
+    background-color: #CEF6F5;
+	color:black;
+}
+
+.card-columns {
+    @include media-breakpoint-only(lg) {
+      column-count: 4;
+    }
+    @include media-breakpoint-only(xl) {
+      column-count: 5;
+    }
+  }
+/*rgb(202, 165, 237) hsl(271, 68%, 79%) #CAA5ED
+rgb(165, 179, 237) hsl(228, 68%, 79%) A5B3ED
+style="background-image: linear-gradient( to right,  #02bfc7 65%, #b3c7c7 , #CEF6F5 ); ;

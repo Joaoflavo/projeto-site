@@ -1,0 +1,68 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+form {
+    font-family: Garamond,Verdana,Tahoma,sans-serif;
+    font-size: 16px;
+    background-color: rgb(231, 213, 188)6;
+    max-width: 500px;
+    
+}
+
+h1 {
+	padding-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    color: #eff0de;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px black;
+}
+
+input, textarea {
+    width: 200px;
+    padding: 10px;
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: 1px solid;
+}
+
+input:hover, textarea:hover, input:focus, textarea:focus {
+    border-color:  rgb(228, 218, 205)6;
+    box-shadow: 5px 0px 9px #dfdfc2;
+    background-color:  rgb(228, 218, 205)6;
+    color: rgb(168, 15, 15);
+    font-weight: bold;
+    text-shadow: 3px 3px 3px white;
+}
+
+.enviar {
+    background-color: #dac3b9;
+    text-shadow: 1px 1px 1px black;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: white;
+}
+
+textarea {
+    width: 600px;
+    height: 320px;
+    line-height: 20px;
+    max-width: 400px;
+}
+
+form label {
+    margin-left: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+/*fim do fromulario*/
+
