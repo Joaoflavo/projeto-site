@@ -57,14 +57,7 @@ menu:hover{
 	color:black;
 }
 
-.card-columns {
-    @include media-breakpoint-only(lg) {
-      column-count: 4;
-    }
-    @include media-breakpoint-only(xl) {
-      column-count: 5;
-    }
-  }
+
 /*rgb(202, 165, 237) hsl(271, 68%, 79%) #CAA5ED
 rgb(165, 179, 237) hsl(228, 68%, 79%) A5B3ED
 style="background-image: linear-gradient( to right,  #02bfc7 65%, #b3c7c7 , #CEF6F5 ); ;
