@@ -56,7 +56,9 @@ menu:hover{
     background-color: #CEF6F5;
 	color:black;
 }
-
+.i{
+    padding-top: 10px;
+}
 
 /*rgb(202, 165, 237) hsl(271, 68%, 79%) #CAA5ED
 rgb(165, 179, 237) hsl(228, 68%, 79%) A5B3ED
